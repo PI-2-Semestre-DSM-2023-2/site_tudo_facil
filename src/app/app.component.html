@@ -1,0 +1,146 @@
+<div *ngIf="router.url !== '/cadastro'" class="nav-header">
+  <header
+    class="d-flex flex-wrap justify-content-center py-3 border-bottom nav-site"
+  >
+    <a
+      routerLink="/"
+      class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none"
+    >
+      <img class="px-2" height="40" src="../assets/images/logo_horizontal_tudo_facil.png" alt="Logo Tudo Fácil">
+    </a>
+
+    <!--<button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>-->
+
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+        >
+          Página Inicial
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/servicos"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >Serviços</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/planos"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >Planos</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/testemunhos"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >Testemunhos</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/sobre"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >Sobre Nós</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/faq"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >FAQ</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="/fale-conosco"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          class="nav-link"
+          >Fale Conosco</a
+        >
+      </li>
+    </ul>
+  </header>
+
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <span class="mx-auto" style="color: var(--bs-link-color);">&copy;2023 - Tudo Fácil</span>
+  </nav>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#"
+          >Home <span class="sr-only">(current)</span></a
+        >
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+    </div>
+  </nav> -->
+</div>
+
+<!-- A PARTIR DAQUI SERÁ EXIBIDO O ROUTER -->
+<div *ngIf="router.url !== '/cadastro'">
+  <router-outlet></router-outlet>
+</div>
+
+<div
+  *ngIf="router.url == '/cadastro'"
+  class="d-flex justify-content-center"
+  style="height: 100%"
+>
+  <div class="d-flex flex-column align-self-center">
+    <h1 class="display-1 align-self-center">
+      <i class="bi bi-hammer"></i> EM CONSTRUÇÃO
+    </h1>
+    <br />
+    <button
+      type="button"
+      class="btn btn-primary btn-lg align-self-center"
+      routerLink="/"
+    >
+      Voltar à Página Inicial
+    </button>
+  </div>
+</div>

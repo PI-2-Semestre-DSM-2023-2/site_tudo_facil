@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="logo_tudo_facil.svg"
+   inkscape:export-filename="logo_tudo_facil.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.3816667"
+     inkscape:cx="44.511459"
+     inkscape:cy="91.194208"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1560">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1556" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop1558" />
+    </linearGradient>
+    <rect
+       x="112.54524"
+       y="103.49819"
+       width="83.956574"
+       height="22.798552"
+       id="rect999" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1560"
+       id="linearGradient1562"
+       x1="112.82617"
+       y1="110.2214"
+       x2="139.00586"
+       y2="110.2214"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="112.54524"
+       y="103.49819"
+       width="83.956573"
+       height="22.798552"
+       id="rect999-3" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffac47;stroke-width:11.1045;stroke-dasharray:none;stroke-opacity:1"
+       id="path788"
+       sodipodi:type="arc"
+       sodipodi:cx="150.33606"
+       sodipodi:cy="147.03467"
+       sodipodi:rx="109.91795"
+       sodipodi:ry="109.91795"
+       sodipodi:start="0.4636476"
+       sodipodi:end="5.7679403"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 248.64967,196.19147 A 109.91795,109.91795 0 0 1 126.46409,254.32906 109.91795,109.91795 0 0 1 40.454683,149.87009 109.91795,109.91795 0 0 1 120.96221,41.114258 109.91795,109.91795 0 0 1 245.98359,92.872809" />
+    <text
+       xml:space="preserve"
+       id="text997"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect999);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none"
+       transform="matrix(3.5352034,0,0,3.5352034,-303.39875,-284.29077)"><tspan
+         x="112.54492"
+         y="113.79236"
+         id="tspan815">Tudo</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text997-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect999-3);display:inline;fill:#0d6efd;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none"
+       transform="matrix(5.4297565,0,0,5.4297565,-550.6134,-428.61377)"><tspan
+         x="112.54492"
+         y="114.0663"
+         id="tspan817">Fácil</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffac47;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path3755"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="22.518238"
+       sodipodi:cy="153.78934"
+       sodipodi:r1="13.827484"
+       sodipodi:r2="6.9137416"
+       sodipodi:arg1="3.1045725"
+       sodipodi:arg2="4.1517701"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 8.7002281,154.30112 10.1419009,-6.36721 10.141901,-6.36721 0.443213,11.96675 0.443213,11.96675 -10.585114,-5.59954 z"
+       inkscape:transform-center-x="5.5791223"
+       inkscape:transform-center-y="0.076028605"
+       transform="matrix(1.6314472,0.07143083,-0.07143083,1.6314472,225.8973,-150.45101)" />
+  </g>
+</svg>
