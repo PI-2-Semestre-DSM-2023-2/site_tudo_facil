@@ -1,0 +1,19 @@
+.home-testimonial {
+    height: 530px;
+}
+
+.home-testimonial-bottom {
+    /*background-color: #f8f8f8;*/
+    background-color: rgb(221, 221, 221);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: auto;
+    top: 20px;
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px;
+}

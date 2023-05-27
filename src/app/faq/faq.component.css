@@ -5,3 +5,7 @@ li {
 div.accordion-body {
     text-align: justify;
 }
+
+.home-testimonial {
+    height: 420px;
+}

@@ -83,9 +83,13 @@ body {
     height: 380px;
 }
 
-.home-testimonial h1,
-h4 {
+.home-testimonial h1, .home-testimonial h4 {
     color: white;
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px;
 }
 
 img.tm-people {
