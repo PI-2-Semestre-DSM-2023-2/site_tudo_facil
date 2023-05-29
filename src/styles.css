@@ -19,7 +19,6 @@
     background-color: rgb(240, 240, 240);
     border-radius: 25px;
     /*height: 100%;*/
-    opacity: 0.9;
     /*margin-top: 5%;*/
 
     /*animation: fadeInRight;*/
@@ -37,10 +36,10 @@
     opacity: 1;
 }
 
-html,
-body {
+html, body {
     height: 100%;
-    overflow-x: hidden;
+    /* Cógido suprimido por problemas no scrollPositionRestoration */
+    /*overflow-x: scroll;*/
     /*overflow-y: auto;*/
 }
 
@@ -60,6 +59,11 @@ body {
     text-align: center;
 }
 
+.animate-right {
+    animation: backInRight;
+    animation-duration: 1s;
+}
+
 .inner-slide-animate-up {
     animation: backInUp;
     animation-duration: 1s;
@@ -67,7 +71,7 @@ body {
 }
 
 .row-slider {
-    height: 450px;
+    height: 475px;
     background-size: cover;
 }
 
@@ -109,4 +113,12 @@ img.tm-people {
 
 a {
     color: black;
+}
+
+.primary-color {
+    color: #0d6efd !important
+}
+
+.second-color {
+    color: #ffac47 !important;
 }
