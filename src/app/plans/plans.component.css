@@ -17,3 +17,8 @@
     position: relative;
     top: -174px;
 }
+
+.body-site {
+    padding: 50px;
+    /*background-color: rgb(108, 150, 255);*/
+}
