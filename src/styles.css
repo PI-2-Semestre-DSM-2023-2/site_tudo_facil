@@ -59,6 +59,12 @@ html, body {
     text-align: center;
 }
 
+.inner-slide-animate-up {
+    animation: backInUp;
+    animation-duration: 1s;
+    text-align: center;
+}
+
 .animate-right {
     animation: backInRight;
     animation-duration: 1s;

@@ -33,6 +33,14 @@
   /*text-align: justify;*/
 }
 
+.featurette-heading-slide {
+  font-weight: 450;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+  /*text-align: justify;*/
+}
+
 /* RESPONSIVE CSS
   -------------------------------------------------- */
 

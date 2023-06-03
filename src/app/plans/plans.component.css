@@ -10,7 +10,7 @@
     margin-bottom: 0px;
     position: relative;
     height: auto;
-    top: 20px;
+    top: 210px;
 }
 
 .testimonial-inner {
@@ -21,4 +21,8 @@
 .body-site {
     padding: 50px;
     /*background-color: rgb(108, 150, 255);*/
+}
+
+.home-testimonial-bottom h1, .home-testimonial-bottom h4 {
+    color: black;
 }
