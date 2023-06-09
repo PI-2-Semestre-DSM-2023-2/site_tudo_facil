@@ -1,4 +1,68 @@
-<div class="body-site">
-    <p>contact works!</p>
-</div>
+<div class="page-animate">
 
+    <section class="home-testimonial">
+        <div class="testimonial-pos text-center inner-slide-animate-down mx-1">
+            <img height="250" width="250" src="../../assets/images/logo_tudo_facil_branco.png" alt="Logo Tudo Fácil">
+            <h1 class="mb-3">Fale Conosco</h1>
+            <h4>Entre em contato com a gente e contrate os nossos serviços</h4>
+        </div>
+        <section class="home-testimonial-bottom">
+            <div class="container testimonial-inner">
+                <form action="javascript:void(0);" class="body-site p-5 container-fluid">
+                    <div class="form-row">
+                        <div class="col-12">
+                            <div class="form-group mb-2">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input #nome type="text" class="form-control" id="nome"
+                                    placeholder="Informe o seu nome">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="email" class="form-label">E-mail</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">@</span>
+                                    <input #email type="email" class="form-control" id="email"
+                                        placeholder="Informe o seu e-mail">
+                                </div>
+                                <small class="form-text text-muted">
+                                    Seu contato será respondido no e-mail informado
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="motivo" class="form-label">Motivo para Contato</label>
+                                <select #motivo name="" id="motivo" class="form-select">
+                                    <option value="Contratação de Plano">Contratação de Plano</option>
+                                    <option value="Dúvidas Sobre os Serviços">Dúvidas Sobre os Serviços</option>
+                                    <option value="Ouvidoria">Ouvidoria</option>
+                                    <option value="Outros Assuntos">Outros Assuntos</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea #mensagem class="form-control" id="mensagem" rows="3"
+                                    placeholder="Escreva a mensagem a ser enviada"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="form-row mb-0">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button class="btn btn-primary"
+                                (click)="enviarEmail(nome.value,email.value,motivo.value,mensagem.value)">Enviar
+                                mensagem</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+</div>
