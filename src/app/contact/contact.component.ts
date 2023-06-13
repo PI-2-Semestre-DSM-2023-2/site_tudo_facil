@@ -13,6 +13,6 @@ export class ContactComponent {
       + "&subject=" + motivo + " - " + nome
       + "&body=" + mensagem;
 
-    window.open(encodeURI(mail), '_blank');
+    window.open(encodeURI(mail));
   }
 }

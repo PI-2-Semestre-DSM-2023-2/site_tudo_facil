@@ -7,6 +7,8 @@ import { ReferencesComponent } from './references/references.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
+import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
+
 
 const routes: Routes = [
   {path:'', component: HomePageComponent},
@@ -16,7 +18,8 @@ const routes: Routes = [
   {path:'sobre', component: AboutComponent},
   {path:'fale-conosco', component: ContactComponent},
   {path:'faq', component: FaqComponent},
-  {path:'cadastro', component: HomePageComponent}
+  {path:'cadastro', component: HomePageComponent},
+  {path:'apresentacao', component: ApresentacaoComponent}
 ];
 
 @NgModule({
