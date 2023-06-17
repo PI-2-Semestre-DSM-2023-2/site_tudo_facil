@@ -2,9 +2,27 @@
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.5.
 
+Por isso, **é necessário ter o Node.js e o Angular CLI instalados para executar a aplicação**
+
+Download Node.js: https://nodejs.org/
+
+Comando de instalação Angular CLI: `npm install -g @angular/cli`
+
+## Utilização de estilos
+
+O Bootstrap foi utilizado como framework de estilos (https://getbootstrap.com/)
+
+O Animate.css (https://animate.style/)  foi utilizado para a realização de algumas das animações presentes no projeto
+
+## Instalação de dependências
+
+Execute `npm i` para instalar as dependências do projeto
+
 ## Servidor de desenvolvimento
 
 Execute `ng serve` executar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos presentes no projeto.
+
+Executar `ng serve -o` irá abrir o navegador automaticamente.
 
 ## Criação de componentes, serviços, etc
 
