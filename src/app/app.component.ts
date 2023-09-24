@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pi1_dsm';
+  title = 'pi2_dsm';
   constructor(public router: Router) { }
 }
 

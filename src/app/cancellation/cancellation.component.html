@@ -1,0 +1,29 @@
+<div class="container testimonial-inner body-site p-5">
+    <form (submit)="irParaDashboard()" class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img height="150" width="150" src="../../assets/images/logo_tudo_facil.png" alt="Logo Tudo Fácil">
+                <h2 class="my-1">Cancelamento de Assinatura</h2>
+            </div>
+            <div class="col-12">
+                <div class="form-group my-3">
+                    <label for="assinatura" class="form-label">Assinatura</label>
+                    <select #assinatura name="assinatura" id="assinatura" class="form-select" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Pacote de serviços domésticos - Plano Intermediário - R$ 180,00">Pacote de serviços domésticos - Plano Intermediário - R$ 180,00</option>
+                        <option value="Pacote de serviços para empresas - Plano Básico - R$ 800,00">Pacote de serviços para empresas - Plano Básico - R$ 800,00</option>
+                        <option value="Pacote de serviços lazer e bem-estar - Plano Avançado - R$ 500,00">Pacote de serviços lazer e bem-estar - Plano Avançado - R$ 500,00</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="form-row mb-0">
+            <div class="col-12 d-flex justify-content-center">
+                <button class="btn btn-primary">Cancelar assinatura selecionada</button>
+            </div>
+        </div>
+    </form>
+</div>

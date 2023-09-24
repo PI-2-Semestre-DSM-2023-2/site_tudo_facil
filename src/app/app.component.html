@@ -1,4 +1,4 @@
-<div *ngIf="router.url !== '/cadastro'" class="nav-header">
+<div *ngIf="!router.url.includes('/sys-tf')" class="nav-header">
   <header class="d-flex flex-wrap justify-content-center py-3 border-bottom nav-site">
     <a routerLink="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
       <img class="px-2" height="40" src="../assets/images/logo_horizontal_tudo_facil.png" alt="Logo Tudo Fácil">
@@ -31,6 +31,9 @@
         <a routerLink="/fale-conosco" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Fale
           Conosco</a>
       </li>
+      <li class="nav-item">
+        <a routerLink="/sys-tf" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link link-warning active">Entrar</a>
+      </li>
     </ul>
   </header>
 
@@ -51,28 +54,36 @@
           <br>
           <p class="h5">Fontes de Imagens e Ícones</p>
           <div class="row">
-            <a href="https://www.flaticon.com/br/icones-gratis/empregada" target="_blank" title="empregada ícones">Empregada ícones
+            <a href="https://www.flaticon.com/br/icones-gratis/empregada" target="_blank"
+              title="empregada ícones">Empregada ícones
               criados por Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/eletricista" target="_blank" title="eletricista ícones">Eletricista ícones
+            <a href="https://www.flaticon.com/br/icones-gratis/eletricista" target="_blank"
+              title="eletricista ícones">Eletricista ícones
               criados por Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/secretario" target="_blank" title="secretário ícones">Secretário ícones
+            <a href="https://www.flaticon.com/br/icones-gratis/secretario" target="_blank"
+              title="secretário ícones">Secretário ícones
               criados por Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/fotografo" target="_blank" title="fotografo ícones">Fotografo ícones
+            <a href="https://www.flaticon.com/br/icones-gratis/fotografo" target="_blank"
+              title="fotografo ícones">Fotografo ícones
               criados por Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/gerente" target="_blank" title="gerente ícones">Gerente ícones criados por
+            <a href="https://www.flaticon.com/br/icones-gratis/gerente" target="_blank" title="gerente ícones">Gerente
+              ícones criados por
               Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/velho" target="_blank" title="velho ícones">Velho ícones criados por
+            <a href="https://www.flaticon.com/br/icones-gratis/velho" target="_blank" title="velho ícones">Velho ícones
+              criados por
               Freepik - Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/mae" target="_blank" title="mãe ícones">Mãe ícones criados por Freepik -
+            <a href="https://www.flaticon.com/br/icones-gratis/mae" target="_blank" title="mãe ícones">Mãe ícones
+              criados por Freepik -
               Flaticon</a>
             <br>
-            <a href="https://www.flaticon.com/br/icones-gratis/companhia" target="_blank" title="companhia ícones">Companhia ícones
+            <a href="https://www.flaticon.com/br/icones-gratis/companhia" target="_blank"
+              title="companhia ícones">Companhia ícones
               criados por Freepik - Flaticon</a>
             <br>
             <a target="_blank"
@@ -83,7 +94,6 @@
               href="https://br.freepik.com/fotos-gratis/homem-de-negocios-proprietario-da-empresa-no-escritorio_5495095.htm#query=homem%20empresario&position=3&from_view=keyword&track=ais">Imagem
               de senivpetro no Freepik</a>
           </div>
-          
         </div>
       </div>
     </div>
@@ -91,11 +101,11 @@
 </div>
 
 <!-- A PARTIR DAQUI SERÁ EXIBIDO O ROUTER -->
-<div *ngIf="router.url !== '/cadastro'">
+<div>
   <router-outlet></router-outlet>
 </div>
 
-<div *ngIf="router.url == '/cadastro'" class="d-flex justify-content-center" style="height: 100%">
+<!-- <div *ngIf="router.url == '/cadastro'" class="d-flex justify-content-center" style="height: 100%">
   <div class="d-flex flex-column align-self-center">
     <h1 class="display-1 align-self-center">
       <i class="bi bi-hammer"></i> EM CONSTRUÇÃO
@@ -105,4 +115,4 @@
       Voltar à Página Inicial
     </button>
   </div>
-</div>
+</div> -->

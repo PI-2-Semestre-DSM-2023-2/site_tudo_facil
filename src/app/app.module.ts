@@ -12,6 +12,11 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
 import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { CancellationComponent } from './cancellation/cancellation.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -24,19 +29,16 @@ import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
     AboutComponent,
     ContactComponent,
     FaqComponent,
-    ApresentacaoComponent
+    ApresentacaoComponent,
+    LoginComponent,
+    RegisterComponent,
+    SubscriptionComponent,
+    CancellationComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
-    /*RouterModule.forRoot([
-      { path: '', component: HomePageComponent },
-      { path: 'servicos', component: ServicesComponent },
-      { path: 'planos', component: PlansComponent },
-      { path: 'testemunhos', component: ReferencesComponent },
-      { path: 'sobre', component: AboutComponent },
-      { path: 'fale-conosco', component: ContactComponent }
-    ]),*/
   ],
   providers: [],
   bootstrap: [AppComponent]
