@@ -1,14 +1,18 @@
-h2, h3, h4, h5 {
-    font-weight: 400;
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
 }
 
 .plano {
-    background-color: rgb(250, 250, 250);
-    border-radius: 25px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 25px;
+  border: 10px solid rgb(240, 240, 240);
 }
 
 .planos {
-    max-height: 85vh;
+  max-height: 85vh;
 }
 
 /* .body-site {
