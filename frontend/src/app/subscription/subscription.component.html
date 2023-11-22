@@ -1,0 +1,40 @@
+<div class="container testimonial-inner body-site p-5 mb-4">
+    <form (submit)="realizarAssinatura($event)" class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img height="150" width="150" src="../../assets/images/logo_tudo_facil.png" alt="Logo Tudo Fácil">
+                <h2 class="my-1">Contratação de Pacote de Assinatura</h2>
+            </div>
+            <div class="col-12">
+                <div class="form-group my-3">
+                    <label for="nivel_plano_id" class="form-label">Assinatura</label>
+                    <select #nivel_plano_id name="nivel_plano_id" id="nivel_plano_id" class="form-select" required>
+                        <option value="">Selecione uma opção</option>
+                        <option *ngFor="let nivel of niveis" value={{nivel.id}}>{{nivel.plano.nome}} - Plano
+                            {{nivel.tipo_plano.descricao}} - R$ {{nivel.valor.toFixed(2)}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group my-3">
+                    <label for="forma_pagamento" class="form-label">Forma de Pagamento</label>
+                    <select #forma_pagamento name="forma_pagamento" id="forma_pagamento" class="form-select" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Boleto Bancário">Boleto Bancário</option>
+                        <option value="Cartão de Crédito">Cartão de Crédito</option>
+                        <option value="Cartão de Débito">Cartão de Débito</option>
+                        <option value="PIX">PIX</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="form-row mb-0">
+            <div class="col-12 d-flex justify-content-center">
+                <button class="btn btn-primary">Realizar contratação</button>
+            </div>
+        </div>
+    </form>
+</div>

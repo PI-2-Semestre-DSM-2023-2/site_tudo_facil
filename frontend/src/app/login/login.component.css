@@ -1,0 +1,12 @@
+.container {
+    margin-top: 60px;
+    max-width: 480px !important;
+}
+
+button {
+    flex: 1;
+}
+
+h2 {
+    font-weight: 400;
+}

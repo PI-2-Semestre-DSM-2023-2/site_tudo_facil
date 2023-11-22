@@ -1,6 +1,17 @@
 # Site Tudo Fácil
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.5.
+Aplicação criada como parte do projeto de PI do 2º Semestre do curso Desenvolvimento de Software Multiplataforma na Fatec Franca
+
+Integrantes do Grupo:
+
+- Cristian Nascimento
+- Eduardo Vilas Boas Freitas
+- Luhara Fernandes 
+- Silvio Alves da Silva Junior
+- Vinicius Baldochi
+
+## Projeto Front-End (/frontend)
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.10.
 
 Por isso, **é necessário ter o Node.js e o Angular CLI instalados para executar a aplicação**
 
@@ -43,3 +54,17 @@ Execute `ng e2e` para executar os testes de ponta a ponta por meio de uma plataf
 ## Mais ajuda
 
 Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
+
+---------------------------------------
+
+## Projeto Back-End (/backend)
+
+#### Para o correto funcionamento do projeto, é necessária a criação e correta configuração de uma instância do SGBD **MySQL**
+
+## Instalação de dependências
+
+Execute `npm i` para instalar as dependências do projeto
+
+## Servidor de desenvolvimento
+
+Execute `npm run dev` executar o servidor de desenvolvimento. Navegue até `http://localhost:3000/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos presentes no projeto.

@@ -1,0 +1,31 @@
+{
+    "name": "backend_tudo_facil",
+    "version": "1.0.0",
+    "description": "Backend para projeto desenvolvido no PI 2° Semestre DSM FATEC",
+    "main": "./src/index.ts",
+    "scripts": {
+        "start": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/index.ts",
+        "dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/index.ts",
+        "migration:create": "ts-node-dev ./node_modules/typeorm/cli.js migration:create ./src/migrations/AlterName",
+        "migration:run": "ts-node-dev ./node_modules/typeorm/cli.js migration:run -d ./src/data_source.ts",
+        "migration:revert": "ts-node-dev ./node_modules/typeorm/cli.js migration:revert -d ./src/data_source.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.6.2",
+        "ts-node-dev": "^2.0.0",
+        "typeorm": "^0.3.17",
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.14",
+        "@types/express": "^4.17.21",
+        "@types/jsonwebtoken": "^9.0.5",
+        "prettier": "^3.0.3",
+        "reflect-metadata": "^0.1.13"
+    }
+}
