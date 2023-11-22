@@ -10,6 +10,11 @@ Integrantes do Grupo:
 - Silvio Alves da Silva Junior
 - Vinicius Baldochi
 
+
+ Vídeo: https://youtu.be/FNbmRmy_mvo
+
+ Documentação: https://1drv.ms/w/s!AmaFUMXs-qWBzvleZWUkoFWCDm14kg?e=a9LGE5
+
 ## Projeto Front-End (/frontend)
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.10.
 
@@ -64,6 +69,10 @@ Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [A
 ## Instalação de dependências
 
 Execute `npm i` para instalar as dependências do projeto
+
+## Estrutura do banco de dados
+
+Execute `npm run migration:run` para montar a estrutura do banco de dados
 
 ## Servidor de desenvolvimento
 
